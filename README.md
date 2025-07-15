@@ -24,4 +24,5 @@ bun dev
     <li><a href="https://github.com/brlacerra/sonare-music/blob/master/lib/algoritmos/rabinKarp.ts">Rabin Karp</a></li>
 </ul>
 
-<p>Se o BD, as API's e os algoritmos não vão funcionar, mas acredite, eles funcionam :)</p>
+<p>Sem o BD, as API's e os algoritmos não vão funcionar, mas acredite, eles funcionam :)</p>
+<p>Os algoritmos foram implementados em uma lista fictícia de usuários, criada com MySQL + Prisma</p>

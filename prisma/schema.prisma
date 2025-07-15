@@ -1,0 +1,26 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Usuario {
+  spotifyId  String   @id
+  nome       String
+  criadoEm   DateTime @default(now())
+  
+  amigos     Amigo[]  @relation("UsuarioAmigos")
+}
+
+
+model Amigo {
+  id              String   @id @default(uuid())
+  friendSpotifyID  String
+  criadoEm        DateTime @default(now())
+
+  usuarioSpotifyID String
+  usuario         Usuario  @relation("UsuarioAmigos", fields: [usuarioSpotifyID], references: [spotifyId])
+}

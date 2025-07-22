@@ -30,7 +30,7 @@ bun dev
 # Algoritmos do Módulo 2
 
 <ul>
-    <li><a href="https://github.com/brlacerra/sonare-music/blob/master/src/lib/algoritmos/buscaBinaria.ts">
+    <li><a href="https://github.com/brlacerra/sonare-music/blob/master/src/lib/algoritmos/hashDesloc.ts">
     Hashing com enlaçamento deslocado e multiplicação</a></li>
 </ul>
 

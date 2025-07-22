@@ -17,11 +17,11 @@ bun dev
 # Algoritmos do Módulo 1
 
 <ul>
-    <li><a href="https://github.com/brlacerra/sonare-music/blob/master/lib/algoritmos/buscaBinaria.ts">Busca Binária</a></li>
-    <li><a href="https://github.com/brlacerra/sonare-music/blob/master/lib/algoritmos/buscaSequencial.ts">Busca Sequencial</a></li>
-    <li><a href="https://github.com/brlacerra/sonare-music/blob/master/lib/algoritmos/hashing.ts">Hashing</a></li>
-    <li><a href="https://github.com/brlacerra/sonare-music/blob/master/lib/algoritmos/huffmanCompress.ts">Compressão Huffman</a></li>
-    <li><a href="https://github.com/brlacerra/sonare-music/blob/master/lib/algoritmos/rabinKarp.ts">Rabin Karp</a></li>
+    <li><a href="https://github.com/brlacerra/sonare-music/blob/master/src/lib/algoritmos/buscaBinari.ts">Busca Binária</a></li>
+    <li><a href="https://github.com/brlacerra/sonare-music/blob/master/src/lib/algoritmos/buscaSequencial.ts">Busca Sequencial</a></li>
+    <li><a href="https://github.com/brlacerra/sonare-music/blob/master/src/lib/algoritmos/hashing.ts">Hashing</a></li>
+    <li><a href="https://github.com/brlacerra/sonare-music/blob/master/src/lib/algoritmos/huffmanCompress.ts">Compressão Huffman</a></li>
+    <li><a href="https://github.com/brlacerra/sonare-music/blob/master/src/lib/algoritmos/rabinKarp.ts">Rabin Karp</a></li>
 </ul>
 
 <p>Sem o BD, as API's e os algoritmos não vão funcionar, mas acredite, eles funcionam :)</p>
@@ -30,7 +30,7 @@ bun dev
 # Algoritmos do Módulo 2
 
 <ul>
-    <li><a href="https://github.com/brlacerra/sonare-music/blob/master/lib/algoritmos/buscaBinaria.ts">
+    <li><a href="https://github.com/brlacerra/sonare-music/blob/master/src/lib/algoritmos/buscaBinaria.ts">
     Hashing com enlaçamento deslocado e multiplicação</a></li>
 </ul>
 

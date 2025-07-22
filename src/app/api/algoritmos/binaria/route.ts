@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { buscaBinaria } from "../../../../../lib/algoritmos/buscaBinaria";
+import { buscaBinaria } from "@/lib/algoritmos/buscaBinaria";
 
 export async function POST(req: NextRequest) {
   const { nome } = await req.json();

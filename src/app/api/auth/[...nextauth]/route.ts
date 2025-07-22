@@ -1,3 +1,5 @@
+// src/app/api/auth/[...nextauth]/route.ts
+
 import NextAuth from "next-auth"
 import SpotifyProvider from "next-auth/providers/spotify"
 import type { NextAuthOptions } from "next-auth"
@@ -54,7 +56,8 @@ const authorizationUrl = `https://accounts.spotify.com/authorize?${new URLSearch
   scope: scopes,
 })}`
 
-const handler = NextAuth({
+// 🔓 Exporta-se as configurações
+export const authOptions: NextAuthOptions = {
   providers: [
     SpotifyProvider({
       clientId: process.env.SPOTIFY_CLIENT_ID!,
@@ -85,6 +88,8 @@ const handler = NextAuth({
       return session
     },
   },
-})
+}
+
+const handler = NextAuth(authOptions)
 
 export { handler as GET, handler as POST }

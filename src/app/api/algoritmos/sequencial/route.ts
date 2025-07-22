@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { buscaSequencial } from "../../../../../lib/algoritmos/buscaSequencial";
+import { buscaSequencial } from "../../../../lib/algoritmos/buscaSequencial";
 
 export async function POST(req: NextRequest) {
   const { nome } = await req.json();

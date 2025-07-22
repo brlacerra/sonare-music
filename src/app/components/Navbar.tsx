@@ -12,7 +12,6 @@ export default function Navbar() {
         { name: "Início", href: "/" },
         { name: "Explorar", href: "/explore" },
         { name: "Perfis", href: "/profiles" },
-        { name: "Player", href: "/player" },
     ];
 
     return (
@@ -33,7 +32,7 @@ export default function Navbar() {
                                 <Link key={link.name} href={link.href}>
                                     <motion.span
                                         whileHover={{ scale: 1, color: "var(--cyntilant-red)" }}
-                                        className="text-black cursor-pointer font-bold"
+                                        className="text-black cursor-pointer font-bold outline-none hover:underline"
                                     >
                                         {link.name}
                                     </motion.span>

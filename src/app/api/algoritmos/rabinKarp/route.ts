@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { rabinKarp } from "../../../../../lib/algoritmos/rabinKarp";
+import { rabinKarp } from "../../../../lib/algoritmos/rabinKarp";
 
 export async function POST(req: NextRequest) {
   const { nome } = await req.json();

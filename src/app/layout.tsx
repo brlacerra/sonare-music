@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Providers from "./providers";
+import SpotifyPlayerWrapper from "./components/SpotifyPlayerWrapper";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,9 +32,11 @@ export default function RootLayout({
       >
         <Providers>
           <Navbar />
+          <SpotifyPlayerWrapper />
           <div className="pt-24">
             {children}
           </div>
+
         </Providers>
       </body>
     </html>

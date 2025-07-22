@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { gerarHashes } from "../../../../../lib/algoritmos/hashing";
+import { gerarHashes } from "../../../../lib/algoritmos/hashing";
 
 export async function GET() {
   try {
